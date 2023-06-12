@@ -1,3 +1,4 @@
+// 🔴Print the first 100 prime numbers
 // Code is => DONE✅
 
 let tab = 0;

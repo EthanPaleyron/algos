@@ -7,6 +7,6 @@ let printNumbers = "";
 
 for (let i = 0; i <= 10; i++) {
     printNumbers += i + space;
-};
+}
 
 console.log(printNumbers);

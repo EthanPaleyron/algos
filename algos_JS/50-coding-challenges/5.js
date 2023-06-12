@@ -7,6 +7,6 @@ let i = 1;
 while (i <= 10) {
     calculateTheSumOfTen += i;
     i++;
-};
+}
 
 console.log(calculateTheSumOfTen);

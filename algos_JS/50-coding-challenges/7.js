@@ -1,13 +1,11 @@
 // 🔴Calculate the sum of even numbers greater than 10 and less than 30
-// Code is => INCOMPLETE❌
-import { space } from "../main";
+// Code is => DONE✅
+import { space } from "../main.js";
 
-let somme = "";
-let i = 0;
+let numberPaire = "";
 
-while (i <= 10 && i >= 30) {
-    somme = i + space;
-    i + 2;
-};
+for (let i = 10; i <= 30; i += 2) {
+    numberPaire += i + space;
+}
 
-console.log(somme);
+console.log(numberPaire);
