@@ -1,8 +1,10 @@
 // 🔴Rotate an array to the right 1 position
+// Code is => DONE✅
 
-let array = [1, 2, 5, 10, 15];
+function rotateRight(array) {
+    array.push(array[0]);
+    array.shift();
+    return array;
+}
 
-array.push(array[0]);
-array.unshift(array[1]);
-
-console.log(array);
+console.log(rotateRight(["right", 1, 2, 5, 10]));

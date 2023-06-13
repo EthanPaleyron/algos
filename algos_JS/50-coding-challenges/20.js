@@ -1,9 +1,9 @@
 // 🔴Rotate an array to the left 1 position
-
+// Code is => DONE✅
 
 function rotateLeft(array) {
-    array.shift();
-    array.push();
+    array.unshift(array[4]);
+    array.pop();
     return array;
 }
 
