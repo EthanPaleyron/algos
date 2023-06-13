@@ -6,9 +6,9 @@ let listOfPrimeNumber = [];
 
 function verifNmbPremier(tab) {
     for (let i = 2; i < tab; i++) {
-            if (tab%i === 0) {
-                return false;
-            };
+        if (tab % i === 0) {
+            return false;
+        };
     }
     return true;
 }

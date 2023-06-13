@@ -8,4 +8,4 @@ function rotateReverseString(username) {
     return joinArray;
 }
 
-console.log(rotateReverseString("Sanka"));
+console.log(rotateReverseString("Large"));
