@@ -3,13 +3,13 @@
 
 function arrayOneSingleNumber(array1, array2) {
     let newArray = [];
-        for (let index = 0; index < array1.length; index++) {
-            const element = array1[index];
+        for (let i = 0; i < array1.length; i++) {
+            const element = array1[i];
             if (!array2.includes(element)) {
-                newArray.push(element)
+                newArray.push(element);
             }
         }
     return newArray;
 }
 
-console.log(arrayOneSingleNumber([1, 2, 3, 5, 22, 35, 45], [5, 1, 6, 3, 10]))
+console.log(arrayOneSingleNumber([1, 2, 3, 5, 22, 35, 45], [5, 1, 6, 3, 10]));
