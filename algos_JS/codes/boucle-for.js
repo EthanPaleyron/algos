@@ -1,4 +1,3 @@
-// TAINIX🔲
 // Code is => DONE✅
 
 function boucleFor(num) {

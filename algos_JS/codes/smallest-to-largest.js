@@ -25,8 +25,7 @@ function tab(array) {
   ];
   console.log(tab(arr));
   
-  // 🔴Dans plusieur tableaux
-  
+  // 🔴Dans plusieurs tableaux
   // function algoOlivie() {
     
   //   let result = [];
