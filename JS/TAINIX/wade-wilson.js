@@ -37,7 +37,7 @@ function conductOfTheMission(steps) {
             min++;
             sec = 0;
         }
-        console.log(`${steps[i]} => ${min} : ${sec}`);
+        console.log(`${steps[i]} => ${min} : ${sec} et ${hp}hp`);
     }
 
     return `${min}min_${sec}sec_${hp}hp`;
