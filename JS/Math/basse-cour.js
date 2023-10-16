@@ -1,3 +1,4 @@
+// Code is => DONE✅
 function nbrPoules(tetes, pates) {
   let result = "";
   let lapin = tetes;

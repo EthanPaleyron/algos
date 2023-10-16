@@ -1,3 +1,4 @@
+// Code is => DONE✅
 function diviseurs(n) {
   let i = 2;
   let divs = "1 ";
