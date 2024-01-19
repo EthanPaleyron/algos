@@ -1,27 +1,33 @@
-const mots = "bénjeur";
-const voyelles = [
-  ["à", "â"],
-  ["é", "è"],
-];
-let nouveauMots = "";
+const mots = "bönjôur";
+const lettersA = ["à", "â"];
+const lettersE = ["é", "è", "ê", "ë"];
+const lettersI = ["î", "ï"];
+const lettersO = ["ô", "ö"];
+const lettersU = ["û", "ü"];
 let lettresEnregistrer = "";
 let result = "oui";
 
 for (let i = 0; i < mots.length; i++) {
-  if (mots[i] === "é") {
-    nouveauMots += "e";
-  } else {
-    nouveauMots += mots[i];
+  let letter = mots[i];
+  console.log(letter);
+  if (lettersA.indexOf(letter) != -1) {
+    letter = "a";
+  } else if (lettersE.indexOf(letter) != -1) {
+    letter = "e";
+  } else if (lettersI.indexOf(letter) != -1) {
+    letter = "i";
+  } else if (lettersO.indexOf(letter) != -1) {
+    letter = "o";
+  } else if (lettersU.indexOf(letter) != -1) {
+    letter = "u";
   }
-}
-
-for (let i = 0; i < nouveauMots.length; i++) {
-  if (lettresEnregistrer.indexOf(nouveauMots[i]) != -1) {
+  if (lettresEnregistrer.indexOf(letter) == -1) {
+    lettresEnregistrer += letter;
+  } else {
     result = "non";
     break;
   }
-  lettresEnregistrer += nouveauMots[i];
 }
 
-console.log(nouveauMots);
+console.log(lettresEnregistrer);
 console.log(result);
