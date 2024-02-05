@@ -1,4 +1,4 @@
-const mots = "bönjôur";
+const mots = "bonjôur";
 const lettersA = ["à", "â"];
 const lettersE = ["é", "è", "ê", "ë"];
 const lettersI = ["î", "ï"];
