@@ -1,5 +1,9 @@
+// TAINIX🔲
+// Code is => DONE✅
+// Dificulty = Intermédiaire😐
+
 const john = 50;
-const ennemis = [53, 48, 71, 58, 56, 60, 44, 55, 63, 97, 40];
+const ennemis = [87, 57, 56, 60, 69, 98, 80, 91, 61, 40, 46];
 const etageMax = 100;
 let ennemisViser = [];
 let ennemisLister = [];
