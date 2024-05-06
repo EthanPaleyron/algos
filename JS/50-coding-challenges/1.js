@@ -6,7 +6,7 @@ import { space } from "../main.js";
 let printNumbers = "";
 
 for (let i = 0; i <= 10; i++) {
-    printNumbers += i + space;
+  printNumbers += i + space;
 }
 
 console.log(printNumbers);
