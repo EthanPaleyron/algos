@@ -10,13 +10,10 @@ function trie(tab, date) {
   while (bool) {
     bool = false;
     for (let i = 0; i < tab.length; i++) {
-      if (tab[i] > tab[i + 1] && paire == true) {
-        let tmp = tab[i];
-        tab[i] = tab[i + 1];
-        tab[i + 1] = tmp;
-        bool = true;
-        break;
-      } else if (tab[i] < tab[i + 1] && paire == false) {
+      if (
+        (tab[i] > tab[i + 1] && paire == true) ||
+        (tab[i] < tab[i + 1] && paire == false)
+      ) {
         let tmp = tab[i];
         tab[i] = tab[i + 1];
         tab[i + 1] = tmp;
@@ -30,6 +27,6 @@ function trie(tab, date) {
 console.log(
   trie(
     ["afdfdsa", "fdfshgfdq", "hehehah", "uahjehk", "bdqsfhjlifkh", "dahhejfez"],
-    31
+    32
   )
 );
