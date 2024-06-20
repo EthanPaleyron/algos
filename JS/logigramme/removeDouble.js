@@ -1,4 +1,4 @@
-const duplicate = ["tatane", "fesse", "moi", "les", "fesse"];
+const duplicate = ["bonjour", "comment", "tu", "comment", "t'appel"];
 let result = [];
 
 for (let i = 0; i < duplicate.length; i++) {
